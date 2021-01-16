@@ -45,13 +45,15 @@
                 <div class="py-1"></div>
                 <div class="email">
                     <div class="row">
-                        <div class="col-md-30">
+                        <div class="col-md-25">
                             Enter your email to get news.
                         </div>
-                        <div class="col-md-30">
-                            <form action="">
-                                <input type="email">
-                                <input type="submit" value="Submit">
+                        <div class="col-md-25">
+                            <form>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="">
+                                    <button class="submit" type="submit"><i class="fa fa-arrow-right"></i></button>
+                                </div>
                             </form>
                         </div>
                     </div>

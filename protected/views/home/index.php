@@ -253,7 +253,7 @@
 			<div class="col-md-40">
 				<div class="row">
 					<div class="col-md-30">
-						<div class="box-contents text-center p-2">
+						<div class="box-contents text-center p-2 m-2">
 							<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
 							<div class="title my-2">
 								<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
@@ -262,7 +262,7 @@
 						</div>
 					</div>
 					<div class="col-md-30">
-						<div class="box-contents text-center p-2">
+						<div class="box-contents text-center p-2 m-2">
 							<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
 							<div class="title my-2">
 								<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
@@ -271,7 +271,7 @@
 						</div>
 					</div>
 					<div class="col-md-30">
-						<div class="box-contents text-center p-2">
+						<div class="box-contents text-center p-2 m-2">
 							<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
 							<div class="title my-2">
 								<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
@@ -280,7 +280,7 @@
 						</div>
 					</div>
 					<div class="col-md-30">
-						<div class="box-contents text-center p-2">
+						<div class="box-contents text-center p-2 m-2">
 							<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
 							<div class="title my-2">
 								<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
@@ -360,5 +360,60 @@
 </section>
 
 <section class="home-sec-6">
+	<div class="prelative container">
+		<div class="row">
+			<div class="col-md-60 my-5">
+				<div class="title-text orange text-center">
+					<h3>BERITA & ACARA BEST MEAT</h3>
+				</div>
+			</div>
+			<div class="col-md-40">
+				<div class="berita">
+					<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+					<div class="deskripsi p-4">
+						<div class="row">
+							<div class="col-md-25">
+								<div class="title mb-2">
+									<h5>FOOD FESTIVAL DI SURABAYA</h5>
+								</div>
+								<div class="date">
+									<p>11 Oktober 2020</p>
+								</div>
+							</div>
+							<div class="col-md-35">
+								<div class="desc">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
+			<div class="col-md-20">
+				<div class="berita">
+					<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+					<div class="deskripsi p-4">
+						<div class="title mb-2">
+							<h5>FOOD FESTIVAL DI SURABAYA</h5>
+						</div>
+						<div class="date">
+							<p>11 Oktober 2020</p>
+						</div>
+					</div>
+				</div>
+				<div class="berita">
+					<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+					<div class="deskripsi p-4">
+						<div class="title mb-2">
+							<h5>FOOD FESTIVAL DI SURABAYA</h5>
+						</div>
+						<div class="date">
+							<p>11 Oktober 2020</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
