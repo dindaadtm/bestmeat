@@ -106,7 +106,7 @@ class HomeController extends Controller
 
 	public function actionIndex()
 	{
-		$this->layout = '//layouts/column1';
+		$this->layout = '//layouts/column2';
 		$this->render('index', array());
 	}
 	public function actionAbout()
@@ -144,7 +144,7 @@ class HomeController extends Controller
 	}
 	public function actionAgen()
 	{
-		$this->layout = '//layouts/column1';
+		$this->layout = '//layouts/column2';
 
 		$this->render('agen', array());
 	}

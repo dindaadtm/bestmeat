@@ -22,7 +22,7 @@
                 <h4>PROVINCE</h4>
 
                 <form action="#">
-                    <div class="input-group">
+                    <div class="input-group mb-3">
                         <select name="province" id="province" class="form-control">
                             <option></option>
                             <option value="jatim">Jawa Timur</option>
@@ -37,7 +37,7 @@
                 <h4>CITY</h4>
 
                 <form action="#">
-                    <div class="input-group">
+                    <div class="input-group mb-3">
                         <select name="city" id="city" class="form-control">
                             <option></option>
                             <option value="mlg">Malang</option>
@@ -52,7 +52,7 @@
                 <h4>STORE TYPE</h4>
 
                 <form action="#">
-                    <div class="input-group">
+                    <div class="input-group ">
                         <select name="store" id="store" class="form-control">
                             <option></option>
                             <option value="1">1</option>
@@ -80,7 +80,7 @@
                         <div class="store py-3">
                             <h5>1. Best Meat Kalpataru</h5>
                             <p>Meat wholesaler<br>
-                                Jl. Cengkeh Ruko KAV. II No. 2<br>Open : 07.00 - 21.00, Phone : 0811 - 3497 - 123</p>
+                                Jl. Cengkeh Ruko KAV. II No. 2<br>Open : 07.00 - 21.00,<br>Phone : 0811 - 3497 - 123</p>
                             <a href="#">
                                 <p><u>View Location</u></p>
                             </a>
@@ -90,7 +90,7 @@
                         <div class="store py-3">
                             <h5>2. Best Meat Kalpataru</h5>
                             <p>Meat wholesaler<br>
-                                Jl. Cengkeh Ruko KAV. II No. 2<br>Open : 07.00 - 21.00, Phone : 0811 - 3497 - 123</p>
+                                Jl. Cengkeh Ruko KAV. II No. 2<br>Open : 07.00 - 21.00,<br>Phone : 0811 - 3497 - 123</p>
                             <a href="#">
                                 <p><u>View Location</u></p>
                             </a>
@@ -100,7 +100,7 @@
                         <div class="store py-3">
                             <h5>3. Best Meat Kalpataru</h5>
                             <p>Meat wholesaler<br>
-                                Jl. Cengkeh Ruko KAV. II No. 2<br>Open : 07.00 - 21.00, Phone : 0811 - 3497 - 123</p>
+                                Jl. Cengkeh Ruko KAV. II No. 2<br>Open : 07.00 - 21.00,<br>Phone : 0811 - 3497 - 123</p>
                             <a href="#">
                                 <p><u>View Location</u></p>
                             </a>
@@ -110,7 +110,7 @@
                         <div class="store py-3">
                             <h5>4. Best Meat Kalpataru</h5>
                             <p>Meat wholesaler<br>
-                                Jl. Cengkeh Ruko KAV. II No. 2<br>Open : 07.00 - 21.00, Phone : 0811 - 3497 - 123</p>
+                                Jl. Cengkeh Ruko KAV. II No. 2<br>Open : 07.00 - 21.00,<br>Phone : 0811 - 3497 - 123</p>
                             <a href="#">
                                 <p><u>View Location</u></p>
                             </a>
@@ -120,7 +120,7 @@
             </div>
             <div class="col-md-60 text-center">
                 <div class="mb-3">
-                    <h5>jika anda menemukan kesulitan menemukan toko kami, dan membutuhkan bantuan lebih lanjut,
+                    <h5 class="cta">jika anda menemukan kesulitan menemukan toko kami, dan membutuhkan bantuan lebih lanjut,
                         silahkan menghubungi hotline kami sekarang</h5>
                 </div>
                 <a href="">
@@ -130,55 +130,6 @@
                 </a>
             </div>
 
-        </div>
-    </div>
-</section>
-
-<section class="cta">
-    <div class="prelative container">
-        <div class="row">
-            <div class="col-md-30">
-                <div class="tagline">
-                    <img class="img-fluid" src="<?php echo $this->assetBaseurl; ?>home/cta.png">
-                </div>
-                <div class="sosmed ml-5">
-                    <div class="row">
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-tokped.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-blibli.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-shopee.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-happyfresh.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-gojek.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-grab.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-30">
-                <img class="mockup" src="<?php echo $this->assetBaseurl; ?>home/mockup.png">
-            </div>
         </div>
     </div>
 </section>

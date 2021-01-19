@@ -51,7 +51,7 @@
 				</div>
 			</div>
 			<div class="col-md-60 text-center mt-4">
-				<a href="">
+				<a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang' => Yii::app()->language)); ?>">
 					<div class="button text-center">
 						<p>Pelajari tentang kami</p>
 					</div>
@@ -75,44 +75,65 @@
 	<div class="row">
 		<div class="col-md-60">
 			<div class="post-wrapper multiple-items">
-				<div class="post">
-					<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
-					<div class="p-4">
-						<h5>Ayam Ulu</h5>
-						<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+				<a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang' => Yii::app()->language)); ?>">
+					<div class="post">
+						<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
+						<div class="p-4">
+							<h5>Ayam Ulu</h5>
+							<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+						</div>
 					</div>
-				</div>
-				<div class="post">
-					<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
-					<div class="p-4">
-						<h5>Ayam Ulu</h5>
-						<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+				</a>
+				<a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang' => Yii::app()->language)); ?>">
+					<div class="post">
+						<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
+						<div class="p-4">
+							<h5>Ayam Ulu</h5>
+							<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+						</div>
 					</div>
-				</div>
-				<div class="post">
-					<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
-					<div class="p-4">
-						<h5>Ayam Ulu</h5>
-						<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+				</a>
+				<a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang' => Yii::app()->language)); ?>">
+					<div class="post">
+						<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
+						<div class="p-4">
+							<h5>Ayam Ulu</h5>
+							<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+						</div>
 					</div>
-				</div>
-				<div class="post">
-					<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
-					<div class="p-4">
-						<h5>Ayam Ulu</h5>
-						<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+				</a>
+				<a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang' => Yii::app()->language)); ?>">
+					<div class="post">
+						<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
+						<div class="p-4">
+							<h5>Ayam Ulu</h5>
+							<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+						</div>
 					</div>
-				</div>
-				<div class="post">
-					<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
-					<div class="p-4">
-						<h5>Ayam Ulu</h5>
-						<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+				</a>
+				<a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang' => Yii::app()->language)); ?>">
+					<div class="post">
+						<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
+						<div class="p-4">
+							<h5>Ayam Ulu</h5>
+							<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+						</div>
 					</div>
-				</div>
+				</a>
+				<a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang' => Yii::app()->language)); ?>">
+					<div class="post">
+						<img src="<?php echo $this->assetBaseurl; ?>home/produk-kat-1.jpg">
+						<div class="p-4">
+							<h5>Ayam Ulu</h5>
+							<p>Ayam alternatif pengganti jenis ayam kampung yang memiliki nutrisi tinggi, hasil persilangan dari pejantan pelung dengan betina asal perancis.</p>
+						</div>
+					</div>
+				</a>
+
+
 			</div>
 			<div class="col-md-60 text-center mt-5">
-				<a href="">
+				<a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang' => Yii::app()->language)); ?>">
 					<div class="button text-center">
 						<p>Lihat produk kami</p>
 					</div>
@@ -159,8 +180,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-60 text-center mt-5">
-				<a href="">
+			<div class="col-md-60 text-center">
+				<div class="mt-5"></div>
+				<a href="#">
 					<div class="button-white">
 						<p>Lihat resep kami</p>
 					</div>
@@ -179,7 +201,7 @@
 				</div>
 			</div>
 			<div class="col-md-30">
-				<img src="<?php echo $this->assetBaseurl; ?>home/courier.png">
+				<img class="w-100" src="<?php echo $this->assetBaseurl; ?>home/courier.png">
 			</div>
 			<div class="col-md-30">
 				<div class="description py-4 orange">
@@ -203,20 +225,20 @@
 					<tr>
 						<td class="title orange">KUALITAS YANG SELALU
 							DIUTAMAKAN</td>
-						<td>
+						<td class="image">
 							<img src="<?php echo $this->assetBaseurl; ?>agen/keunggulan-1.png">
 							<img src="<?php echo $this->assetBaseurl; ?>agen/keunggulan-2.png">
 							<img src="<?php echo $this->assetBaseurl; ?>agen/keunggulan-3.png">
 						</td>
 					</tr>
 				</table>
-				<div class="my-5">
+				<div class="mt-5">
 					<div class="row">
 						<div class="col-md-30">
-							<h2 class="text-uppercase orange ">Tertarik dengan kami?</h2>
+							<h2 class="text-uppercase orange bottom">Tertarik dengan kami?</h2>
 						</div>
 						<div class="col-md-30 text-center">
-							<a href="">
+							<a href="wa.me/?">
 								<div class="button">
 									<p>Hubungi kami sekarang</p>
 								</div>
@@ -237,58 +259,58 @@
 				<div class="title orange text-center mb-4">
 					<h3>LIHAT APA YANG DIKATAKAN
 						KONSUMEN <b>BEST MEAT</b></h3>
-				</div>
-				<div class="post-wrapper multiple-items-2">
-					<div class="post text-center">
-						<p>Demi memberikan kepuasaan kepada semua konsumen Best Meat selalu mementingkan kualitas produk - produknya, hal inilah yang menjadikannya brand terbaik yang dipercaya konsumennya.</p>
-					</div>
-					<div class="post text-center">
-						<p>Demi memberikan kepuasaan kepada semua konsumen Best Meat selalu mementingkan kualitas produk - produknya, hal inilah yang menjadikannya brand terbaik yang dipercaya konsumennya.</p>
-					</div>
-					<div class="post text-center">
+					<div class="post text-center mt-4">
 						<p>Demi memberikan kepuasaan kepada semua konsumen Best Meat selalu mementingkan kualitas produk - produknya, hal inilah yang menjadikannya brand terbaik yang dipercaya konsumennya.</p>
 					</div>
 				</div>
+
 			</div>
 			<div class="col-md-40">
+				<div class="post-wrapper multiple-items-2">
+					<div class="post text-center">
+						<div class="row">
+							<div class="col-md-30">
+								<div class="box-contents text-center p-2 m-2">
+									<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
+									<div class="title my-2">
+										<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
+									</div>
+									<p>"Sudah langganan lah.. pasti kasih best price and service kalo di Best Meat Shop. Meski rumah di Bekasi, tokonya di Jakarta Timur, sampe rumah ayam-ayam masih beku. "</p>
+								</div>
+							</div>
+							<div class="col-md-30">
+								<div class="box-contents text-center p-2 m-2">
+									<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
+									<div class="title my-2">
+										<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
+									</div>
+									<p>"Sudah langganan lah.. pasti kasih best price and service kalo di Best Meat Shop. Meski rumah di Bekasi, tokonya di Jakarta Timur, sampe rumah ayam-ayam masih beku. "</p>
+								</div>
+							</div>
+							<div class="col-md-30">
+								<div class="box-contents text-center p-2 m-2">
+									<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
+									<div class="title my-2">
+										<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
+									</div>
+									<p>"Sudah langganan lah.. pasti kasih best price and service kalo di Best Meat Shop. Meski rumah di Bekasi, tokonya di Jakarta Timur, sampe rumah ayam-ayam masih beku. "</p>
+								</div>
+							</div>
+							<div class="col-md-30">
+								<div class="box-contents text-center p-2 m-2">
+									<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
+									<div class="title my-2">
+										<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
+									</div>
+									<p>"Sudah langganan lah.. pasti kasih best price and service kalo di Best Meat Shop. Meski rumah di Bekasi, tokonya di Jakarta Timur, sampe rumah ayam-ayam masih beku. "</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="row">
-					<div class="col-md-30">
-						<div class="box-contents text-center p-2 m-2">
-							<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
-							<div class="title my-2">
-								<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
-							</div>
-							<p>"Sudah langganan lah.. pasti kasih best price and service kalo di Best Meat Shop. Meski rumah di Bekasi, tokonya di Jakarta Timur, sampe rumah ayam-ayam masih beku. "</p>
-						</div>
-					</div>
-					<div class="col-md-30">
-						<div class="box-contents text-center p-2 m-2">
-							<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
-							<div class="title my-2">
-								<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
-							</div>
-							<p>"Sudah langganan lah.. pasti kasih best price and service kalo di Best Meat Shop. Meski rumah di Bekasi, tokonya di Jakarta Timur, sampe rumah ayam-ayam masih beku. "</p>
-						</div>
-					</div>
-					<div class="col-md-30">
-						<div class="box-contents text-center p-2 m-2">
-							<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
-							<div class="title my-2">
-								<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
-							</div>
-							<p>"Sudah langganan lah.. pasti kasih best price and service kalo di Best Meat Shop. Meski rumah di Bekasi, tokonya di Jakarta Timur, sampe rumah ayam-ayam masih beku. "</p>
-						</div>
-					</div>
-					<div class="col-md-30">
-						<div class="box-contents text-center p-2 m-2">
-							<img src="<?php echo $this->assetBaseurl; ?>home/review.png">
-							<div class="title my-2">
-								<p>Jenina <span class="orange"> Pegawai Swasta</span></p>
-							</div>
-							<p>"Sudah langganan lah.. pasti kasih best price and service kalo di Best Meat Shop. Meski rumah di Bekasi, tokonya di Jakarta Timur, sampe rumah ayam-ayam masih beku. "</p>
-						</div>
-					</div>
-					<div class="col-md-60 py-5"></div>
+
+					<div class="col-md-60 py-4"></div>
 					<div class="col-md-30">
 						<div class="title orange mb-4">
 							<h3>BUTUH SUPLIER MAKANAN
@@ -296,7 +318,7 @@
 						</div>
 					</div>
 					<div class="col-md-30 text-center">
-						<a href="">
+						<a href="wa.me/?">
 							<div class="button">
 								<p>Hubungi kami sekarang</p>
 							</div>
@@ -304,8 +326,6 @@
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 	</div>
 </section>
@@ -317,34 +337,34 @@
 				<div class="tagline">
 					<img class="img-fluid" src="<?php echo $this->assetBaseurl; ?>home/cta.png">
 				</div>
-				<div class="sosmed ml-5">
+				<div class="sosmed">
 					<div class="row">
-						<div class="col-md-20">
+						<div class="col-md-20 col-30">
 							<a href="">
 								<img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-tokped.png">
 							</a>
 						</div>
-						<div class="col-md-20">
+						<div class="col-md-20 col-30">
 							<a href="">
 								<img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-blibli.png">
 							</a>
 						</div>
-						<div class="col-md-20">
+						<div class="col-md-20 col-30">
 							<a href="">
 								<img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-shopee.png">
 							</a>
 						</div>
-						<div class="col-md-20">
+						<div class="col-md-20 col-30">
 							<a href="">
 								<img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-happyfresh.png">
 							</a>
 						</div>
-						<div class="col-md-20">
+						<div class="col-md-20 col-30">
 							<a href="">
 								<img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-gojek.png">
 							</a>
 						</div>
-						<div class="col-md-20">
+						<div class="col-md-20 col-30">
 							<a href="">
 								<img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-grab.png">
 							</a>
@@ -352,7 +372,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-30">
+			<div class="col-md-30 col-60">
 				<img class="mockup" src="<?php echo $this->assetBaseurl; ?>home/mockup.png">
 			</div>
 		</div>
@@ -368,51 +388,57 @@
 				</div>
 			</div>
 			<div class="col-md-40">
-				<div class="berita">
-					<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
-					<div class="deskripsi p-4">
-						<div class="row">
-							<div class="col-md-25">
-								<div class="title mb-2">
-									<h5>FOOD FESTIVAL DI SURABAYA</h5>
+				<a href="">
+					<div class="berita">
+						<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+						<div class="deskripsi p-4">
+							<div class="row">
+								<div class="col-md-25">
+									<div class="title mb-2">
+										<h5>FOOD FESTIVAL DI SURABAYA</h5>
+									</div>
+									<div class="date">
+										<p>11 Oktober 2020</p>
+									</div>
 								</div>
-								<div class="date">
-									<p>11 Oktober 2020</p>
-								</div>
-							</div>
-							<div class="col-md-35">
-								<div class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas...</p>
+								<div class="col-md-35">
+									<div class="desc">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas...</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 
 			<div class="col-md-20">
-				<div class="berita">
-					<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
-					<div class="deskripsi p-4">
-						<div class="title mb-2">
-							<h5>FOOD FESTIVAL DI SURABAYA</h5>
-						</div>
-						<div class="date">
-							<p>11 Oktober 2020</p>
-						</div>
-					</div>
-				</div>
-				<div class="berita">
-					<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
-					<div class="deskripsi p-4">
-						<div class="title mb-2">
-							<h5>FOOD FESTIVAL DI SURABAYA</h5>
-						</div>
-						<div class="date">
-							<p>11 Oktober 2020</p>
+				<a href="">
+					<div class="berita">
+						<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+						<div class="deskripsi p-4">
+							<div class="title mb-2">
+								<h5>FOOD FESTIVAL DI SURABAYA</h5>
+							</div>
+							<div class="date">
+								<p>11 Oktober 2020</p>
+							</div>
 						</div>
 					</div>
-				</div>
+				</a>
+				<a href="">
+					<div class="berita">
+						<img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+						<div class="deskripsi p-4">
+							<div class="title mb-2">
+								<h5>FOOD FESTIVAL DI SURABAYA</h5>
+							</div>
+							<div class="date">
+								<p>11 Oktober 2020</p>
+							</div>
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>

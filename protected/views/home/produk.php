@@ -80,7 +80,7 @@
                     </div>
                     <div class="col-md-20">
                         <h5>SEARCH PRODUCTS</h5>
-                        <form>
+                        <form class="search" action="#">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="">
                                 <button class="submit" type="submit"><i class="fa fa-search"></i></button>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="col-md-20">
                         <h5>SORT BY</h5>
-                        <form action="#">
+                        <form class="sort" action="#">
                             <div class="input-group">
                                 <select name="sort" id="sort" class="form-control">
                                     <option></option>
@@ -172,15 +172,15 @@
                     <div class="col-md-20">
                         <div class="navigasi">
                             <div class="row">
-                                <div class="col-md-25">
+                                <div class="col-md-25 col-25">
                                     <a href="">
                                         <p class="text-center py-2">First Page</p>
                                     </a>
                                 </div>
-                                <div class="col-md-10">
+                                <div class="col-md-10 col-10">
                                     <div class="divider-vertical"></div>
                                 </div>
-                                <div class="col-md-25">
+                                <div class="col-md-25 col-25">
                                     <a href="">
                                         <p class="text-center py-2">Last Page</p>
                                     </a>
@@ -188,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-20">
+                    <div class="col-md-20 text-center">
                         <div class="pagination">
                             <a href="#">&laquo;</a>
                             <a href="#">1</a>
@@ -207,63 +207,13 @@
                         </div>
                     </div>
                     <div class="col-md-20 text-center">
-                        <a href="">
+                        <a href="wa.me/?">
                             <div class="button">
                                 <p>Hubungi kami sekarang</p>
                             </div>
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-60 m-4">
-            </div>
-        </div>
-</section>
-
-<section class="cta">
-    <div class="prelative container">
-        <div class="row">
-            <div class="col-md-30">
-                <div class="tagline">
-                    <img class="img-fluid" src="<?php echo $this->assetBaseurl; ?>home/cta.png">
-                </div>
-                <div class="sosmed ml-5">
-                    <div class="row">
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-tokped.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-blibli.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-shopee.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-happyfresh.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-gojek.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-grab.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-30">
-                <img class="mockup" src="<?php echo $this->assetBaseurl; ?>home/mockup.png">
             </div>
         </div>
     </div>

@@ -17,43 +17,50 @@
                 </div>
             </div>
             <div class="col-md-20">
-                <div class="berita">
-                    <img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
-                    <div class="deskripsi p-4">
-                        <div class="title mb-2">
-                            <h5>FOOD FESTIVAL DI SURABAYA</h5>
-                        </div>
-                        <div class="date">
-                            <p>11 Oktober 2020</p>
+                <a href="">
+                    <div class="berita">
+                        <img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+                        <div class="deskripsi p-4">
+                            <div class="title mb-2">
+                                <h5>FOOD FESTIVAL DI SURABAYA</h5>
+                            </div>
+                            <div class="date">
+                                <p>11 Oktober 2020</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-20">
-                <div class="berita">
-                    <img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
-                    <div class="deskripsi p-4">
-                        <div class="title mb-2">
-                            <h5>FOOD FESTIVAL DI SURABAYA</h5>
-                        </div>
-                        <div class="date">
-                            <p>11 Oktober 2020</p>
+                <a href="">
+                    <div class="berita">
+                        <img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+                        <div class="deskripsi p-4">
+                            <div class="title mb-2">
+                                <h5>FOOD FESTIVAL DI SURABAYA</h5>
+                            </div>
+                            <div class="date">
+                                <p>11 Oktober 2020</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-20">
-                <div class="berita">
-                    <img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
-                    <div class="deskripsi p-4">
-                        <div class="title mb-2">
-                            <h5>FOOD FESTIVAL DI SURABAYA</h5>
-                        </div>
-                        <div class="date">
-                            <p>11 Oktober 2020</p>
+                <a href="">
+
+                    <div class="berita">
+                        <img src="<?php echo $this->assetBaseurl; ?>home/berita.jpg">
+                        <div class="deskripsi p-4">
+                            <div class="title mb-2">
+                                <h5>FOOD FESTIVAL DI SURABAYA</h5>
+                            </div>
+                            <div class="date">
+                                <p>11 Oktober 2020</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

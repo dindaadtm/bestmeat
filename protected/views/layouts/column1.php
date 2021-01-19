@@ -38,6 +38,9 @@ $slide = Slide::model()->with(array('description'))->findAll($criteria);
     </div>
 </div>
 
+
+
+
 <?php echo $content ?>
 
 <?php echo $this->renderPartial('//layouts/_footer', array()); ?>

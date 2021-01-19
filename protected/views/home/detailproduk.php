@@ -21,7 +21,7 @@
                 <div class="divider"></div>
                 <div class="row">
                     <div class="col-md-30">
-                        <h5>SORT BY</h5>
+                        <h6>SIZE</h6>
                         <form action="#">
                             <div class="input-group">
                                 <select name="sort" id="sort" class="form-control">
@@ -37,26 +37,32 @@
                     <div class="col-md-30"></div>
                 </div>
                 <div class="m-3"></div>
-                <h5>details</h5>
-                <p>Guaranteed freshness.<br>
-                    Excellent livebird quality.<br>
-                    Best for home & restaurant roasting.<br>
-                    Balanced carcass, high percentage of lean meat.<br>
-                    Modern processing with screw chilling, blast freezing and computerized cold chain control.</p><br>
-                <h5>packaging</h5>
-                <p>No Preservatives, No Artificial flavoring, No Hormone,<br>
-                    No Additives, zero (0) Trans fat.<br>
-                    Customization: marination, fresh or frozen and packaging.</p>
+                <h6>details</h6>
+                <ul>
+                    <li>Guaranteed freshness.</li>
+                    <li>Excellent livebird quality.</li>
+                    <li>Best for home & restaurant roasting.</li>
+                    <li>Balanced carcass, high percentage of lean meat.</li>
+                    <li>Modern processing with screw chilling, blast freezing and computerized cold chain control.</li>
+                </ul>
+
+                <h6>packaging</h6>
+                <ul>
+                    <li>No Preservatives, No Artificial flavoring, No Hormone,</li>
+                    <li>No Additives, zero (0) Trans fat.</li>
+                    <li>Customization: marination, fresh or frozen and packaging.</li>
+                </ul>
+
                 <div class="m-5"></div>
                 <div class="row">
-                    <div class="col-md-30 text-center">
+                    <div class="col-md-30 text-center mb-2">
                         <a href="">
                             <div class="button text-uppercase">
                                 <p>BEli produk ini</p>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-30 text-center">
+                    <div class="col-md-30 text-center  mb-2">
                         <a href="">
                             <div class="button text-uppercase">
                                 <p>tambahkan ke keranjang</p>
@@ -112,56 +118,6 @@
                         <p>Bumbu dan Saos</p>
                     </div>
                 </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="cta">
-    <div class="prelative container">
-        <div class="row">
-            <div class="col-md-30">
-                <div class="tagline">
-                    <img class="img-fluid" src="<?php echo $this->assetBaseurl; ?>home/cta.png">
-                </div>
-                <div class="sosmed ml-5">
-                    <div class="row">
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-tokped.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-blibli.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-shopee.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-happyfresh.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-gojek.png">
-                            </a>
-                        </div>
-                        <div class="col-md-20">
-                            <a href="">
-                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-grab.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-30">
-                <img class="mockup" src="<?php echo $this->assetBaseurl; ?>home/mockup.png">
             </div>
         </div>
     </div>

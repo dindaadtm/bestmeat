@@ -1,3 +1,51 @@
+<section class="cta">
+    <div class="prelative container">
+        <div class="row">
+            <div class="col-md-30">
+                <div class="tagline">
+                    <img class="img-fluid" src="<?php echo $this->assetBaseurl; ?>home/cta.png">
+                </div>
+                <div class="sosmed">
+                    <div class="row">
+                        <div class="col-md-20 col-30">
+                            <a href="">
+                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-tokped.png">
+                            </a>
+                        </div>
+                        <div class="col-md-20 col-30">
+                            <a href="">
+                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-blibli.png">
+                            </a>
+                        </div>
+                        <div class="col-md-20 col-30">
+                            <a href="">
+                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-shopee.png">
+                            </a>
+                        </div>
+                        <div class="col-md-20 col-30">
+                            <a href="">
+                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-happyfresh.png">
+                            </a>
+                        </div>
+                        <div class="col-md-20 col-30">
+                            <a href="">
+                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-gojek.png">
+                            </a>
+                        </div>
+                        <div class="col-md-20 col-30">
+                            <a href="">
+                                <img class="my-4" src="<?php echo $this->assetBaseurl; ?>home/i-grab.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-30 col-60">
+                <img class="mockup" src="<?php echo $this->assetBaseurl; ?>home/mockup.png">
+            </div>
+        </div>
+    </div>
+</section>
 <section class="footer-sosmed">
     <div class="prelative container">
         <div class="row">
@@ -46,7 +94,8 @@
                 <div class="email">
                     <div class="row">
                         <div class="col-md-25">
-                            Enter your email to get news.
+                            <p> Enter your email to get news.
+                            </p>
                         </div>
                         <div class="col-md-25">
                             <form>
@@ -60,41 +109,43 @@
                 </div>
             </div>
             <div class="col-md-10">
-                <div class="title orange my-3">
-                    <h3>Browse Best Meat</h3>
+                <div class="navigasi">
+                    <div class="title orange my-3">
+                        <h3>Browse Best Meat</h3>
+                    </div>
+                    <ul class="m-0 p-0">
+                        <a href="">
+                            <li>
+                                <p>HOMEPAGE</p>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <p>ABOUT</p>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <p>CATALOG PRODUCT</p>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <p>EVENTS</p>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <p>STORE LOCATOR</p>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <p>BECOME AN AGENT</p>
+                            </li>
+                        </a>
+                    </ul>
                 </div>
-                <ul class="m-0 p-0">
-                    <a href="">
-                        <li>
-                            <p>HOMEPAGE</p>
-                        </li>
-                    </a>
-                    <a href="">
-                        <li>
-                            <p>ABOUT</p>
-                        </li>
-                    </a>
-                    <a href="">
-                        <li>
-                            <p>CATALOG PRODUCT</p>
-                        </li>
-                    </a>
-                    <a href="">
-                        <li>
-                            <p>EVENTS</p>
-                        </li>
-                    </a>
-                    <a href="">
-                        <li>
-                            <p>STORE LOCATOR</p>
-                        </li>
-                    </a>
-                    <a href="">
-                        <li>
-                            <p>BECOME AN AGENT</p>
-                        </li>
-                    </a>
-                </ul>
             </div>
             <div class="col-md-10">
                 <div class="title orange my-3">
